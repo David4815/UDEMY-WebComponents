@@ -4,10 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Components</title>
+    <style>
+        div{
+            border: 2px solid orange;
+        }
+    </style>
     <script src="tooltip.js"></script>
 </head>
 <body>
-    <p><my-tooltip>Web Components</my-tooltip> are awesome!</p>
+    <p><my-tooltip text="This is a tooltip text">Web Components</my-tooltip> are awesome!</p>
+     <p><my-tooltip>Web Components</my-tooltip> are awesome!</p>
 
 </body>
 </html>
